@@ -1,0 +1,10 @@
+{
+
+  "item.weapon_forging.sapphire": "Sapphire",
+  "item.weapon_forging.raw_sapphire": "Raw Sapphire",
+
+  "block.weapon_forging.sapphire_block": "Block of Sapphire",
+  "block.weapon_forging.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "creativetab.weapon_tab": "Weapon Forging"
+}
