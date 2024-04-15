@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "weapon_forging:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "weapon_forging:sapphire",
+    "count": 9
+  }
+}
