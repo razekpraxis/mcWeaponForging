@@ -6,5 +6,10 @@
   "block.weapon_forging.sapphire_block": "Block of Sapphire",
   "block.weapon_forging.raw_sapphire_block": "Block of Raw Sapphire",
 
+  "block.weapon_forging.sapphire_ore": "Sapphire Ore",
+  "block.weapon_forging.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.weapon_forging.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+  "block.weapon_forging.nether_sapphire_ore": "Nether Sapphire Ore",
+
   "creativetab.weapon_tab": "Weapon Forging"
 }

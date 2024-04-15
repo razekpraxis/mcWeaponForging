@@ -29,7 +29,10 @@ public class ModCreativeModeTabs {
 
                         // Blocks
                         pOutput.accept(WeaponBlocks.SAPPHIRE_BLOCK.get());
-                        pOutput.accept(WeaponBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(WeaponBlocks.SAPPHIRE_ORE.get());
+                        pOutput.accept(WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                        pOutput.accept(WeaponBlocks.NETHER_SAPPHIRE_ORE.get());
+                        pOutput.accept(WeaponBlocks.END_STONE_SAPPHIRE_ORE.get());
 
 
 
