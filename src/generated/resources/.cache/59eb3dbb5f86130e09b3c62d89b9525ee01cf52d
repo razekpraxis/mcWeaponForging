@@ -1,0 +1,8 @@
+// 1.20.2	2024-04-17T14:10:46.0654904	Loot Tables
+1a6554c962aaa277f8cd4099348c838d871960cf data/weapon_forging/loot_tables/blocks/deepslate_sapphire_ore.json
+7e5e5a2c8bbc678ddb31093065db7d943282948f data/weapon_forging/loot_tables/blocks/end_stone_sapphire_ore.json
+73239ef6e7adb4803ed7c1804387975084c5ba65 data/weapon_forging/loot_tables/blocks/nether_sapphire_ore.json
+7043d56eeb105c47dd1040b86db380e172567c20 data/weapon_forging/loot_tables/blocks/raw_sapphire_block.json
+d22f50e03a0dae7e76ba1287ba32254eec4fa722 data/weapon_forging/loot_tables/blocks/sapphire_block.json
+bf96424c54d9b4cd492dc7a8deb407f866622f1f data/weapon_forging/loot_tables/blocks/sapphire_ore.json
+402fefc9c784f97d5c94723a5be64710d339566d data/weapon_forging/loot_tables/blocks/sound_block.json

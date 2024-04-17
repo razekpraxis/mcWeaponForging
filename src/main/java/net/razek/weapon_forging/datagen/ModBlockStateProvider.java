@@ -18,14 +18,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(WeaponBlocks.SAPPHIRE_BLOCK);
         blockWithItem(WeaponBlocks.RAW_SAPPHIRE_BLOCK);
 
-
         blockWithItem(WeaponBlocks.SAPPHIRE_ORE);
-        blockWithItem(WeaponBlocks.END_STONE_SAPPHIRE_ORE);
         blockWithItem(WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE);
+        blockWithItem(WeaponBlocks.END_STONE_SAPPHIRE_ORE);
         blockWithItem(WeaponBlocks.NETHER_SAPPHIRE_ORE);
+
+        blockWithItem(WeaponBlocks.SOUND_BLOCK);
     }
 
-    private void blockWithItem (RegistryObject<Block> blockRegistryObject) {
-        simpleBlockItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
+    private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
 }

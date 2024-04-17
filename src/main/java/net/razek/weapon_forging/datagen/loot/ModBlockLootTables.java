@@ -21,7 +21,7 @@ import net.razek.weapon_forging.item.WeaponItems;
 import java.util.Set;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
-    protected ModBlockLootTables(Set<Item> pExplosionResistant, FeatureFlagSet pEnabledFeatures) {
+    public ModBlockLootTables() {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
     }
 
@@ -37,7 +37,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         // blocks that will only always drop themselves
         this.dropSelf(WeaponBlocks.SAPPHIRE_BLOCK.get());
         this.dropSelf(WeaponBlocks.RAW_SAPPHIRE_BLOCK.get());
-        // this.dropSelf(WeaponBlocks.SOUND_BLOCK.get());
+        this.dropSelf(WeaponBlocks.SOUND_BLOCK.get());
 
         // blocks that drop things other than themselves
         this.add(WeaponBlocks.SAPPHIRE_ORE.get(),

@@ -39,7 +39,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(WeaponItems.SAPPHIRE.get()), has(WeaponItems.SAPPHIRE.get()))
                 .save(recipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WeaponItems.SAPPHIRE.get())
+        // Shapeless recipes
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WeaponItems.SAPPHIRE.get(), 9)
                 .requires(WeaponBlocks.SAPPHIRE_BLOCK.get())
                 .unlockedBy(getHasName(WeaponBlocks.SAPPHIRE_BLOCK.get()), has(WeaponBlocks.SAPPHIRE_BLOCK.get()))
                 .save(recipeOutput);
