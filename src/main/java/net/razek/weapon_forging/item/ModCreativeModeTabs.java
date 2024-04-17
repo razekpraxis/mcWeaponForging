@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(Items.DIAMOND);
                         pOutput.accept(WeaponItems.METAL_DETECTOR.get());
                         pOutput.accept(WeaponItems.STRAWBERRY.get());
+                        pOutput.accept(WeaponItems.PINE_CONE.get());
 
                         // Blocks
                         pOutput.accept(WeaponBlocks.SAPPHIRE_BLOCK.get());
