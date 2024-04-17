@@ -16,5 +16,7 @@
   "block.weapon_forging.end_stone_sapphire_ore": "Endstone Sapphire Ore",
   "block.weapon_forging.nether_sapphire_ore": "Nether Sapphire Ore",
 
+  "tooltip.weapon_forging.metal_detector.tooltip": "Finds valuables underground.",
+
   "creativetab.weapon_tab": "Weapon Forging"
 }
