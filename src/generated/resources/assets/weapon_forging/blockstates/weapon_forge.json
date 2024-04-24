@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "weapon_forging:block/weapon_forge"
+    }
+  }
+}

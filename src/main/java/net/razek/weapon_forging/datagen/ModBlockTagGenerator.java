@@ -28,6 +28,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_IRON_TOOL) //List of blocks that need Iron or higher tools to mine
                 .add(WeaponBlocks.SAPPHIRE_BLOCK.get(),
                     WeaponBlocks.SAPPHIRE_ORE.get(),
+                    WeaponBlocks.WEAPON_FORGE.get(),
                     WeaponBlocks.NETHER_SAPPHIRE_ORE.get(),
                     WeaponBlocks.END_STONE_SAPPHIRE_ORE.get(),
                     WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
@@ -44,7 +45,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         WeaponBlocks.NETHER_SAPPHIRE_ORE.get(),
                         WeaponBlocks.SOUND_BLOCK.get(),
                         WeaponBlocks.END_STONE_SAPPHIRE_ORE.get(),
-                        WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                        WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
+                        WeaponBlocks.WEAPON_FORGE.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE); //List of blocks that require an Axe to mine
 

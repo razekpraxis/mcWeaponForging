@@ -45,6 +45,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(WeaponBlocks.SAPPHIRE_TRAPDOOR.get());
         this.dropSelf(WeaponBlocks.SAPPHIRE_PRESSURE_PLATE.get());
         this.dropSelf(WeaponBlocks.SAPPHIRE_STAIRS.get());
+        this.dropSelf(WeaponBlocks.WEAPON_FORGE.get());
 
         // blocks that drop things other than themselves
         this.add(WeaponBlocks.SAPPHIRE_ORE.get(),

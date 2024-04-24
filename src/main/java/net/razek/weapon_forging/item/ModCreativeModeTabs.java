@@ -48,6 +48,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(WeaponBlocks.SAPPHIRE_FENCE_GATE.get());
                         pOutput.accept(WeaponBlocks.SAPPHIRE_PRESSURE_PLATE.get());
 
+                        pOutput.accept(WeaponBlocks.WEAPON_FORGE.get());
 
                     })
                     .build());

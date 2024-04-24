@@ -77,6 +77,9 @@ public class WeaponBlocks {
     public static final RegistryObject<Block> SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
 
+    public static final RegistryObject<Block> WEAPON_FORGE = registerBlock("weapon_forge",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICK_SLAB)));
+
 
 
     // End list of blocks

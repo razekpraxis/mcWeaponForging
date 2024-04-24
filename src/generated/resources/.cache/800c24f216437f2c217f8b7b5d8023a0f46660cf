@@ -1,4 +1,4 @@
-// 1.20.2	2024-04-24T12:11:11.8874115	Block States: weapon_forging
+// 1.20.2	2024-04-24T15:30:07.779304	Block States: weapon_forging
 fa7669057b0d5a4477c7cd3d1ae3486f0e14a402 assets/weapon_forging/blockstates/deepslate_sapphire_ore.json
 a382986fb45b09b72b61ea3526bd4f664cfb3718 assets/weapon_forging/blockstates/end_stone_sapphire_ore.json
 0bd384f06dfd4f7fd1dd5f97b2f4ba34d871713d assets/weapon_forging/blockstates/nether_sapphire_ore.json
@@ -15,6 +15,7 @@ f283e1184185dad0bdf514a6357c257ef55c8c91 assets/weapon_forging/blockstates/sapph
 aee0375aeded1155640d9889860270fffc8bdcdc assets/weapon_forging/blockstates/sapphire_trapdoor.json
 2472f0fd96ddffec5173bbffe6e99d13669883ee assets/weapon_forging/blockstates/sapphire_wall.json
 94a6c1e66dfcdc8d1e48db408496d6a9d66239df assets/weapon_forging/blockstates/sound_block.json
+d63bd97fbf5bd55eb68be934a90dd84457717bee assets/weapon_forging/blockstates/weapon_forge.json
 1ce6abefe24bcfc67ce4a2137ea305373c5a63f9 assets/weapon_forging/models/block/deepslate_sapphire_ore.json
 0621c2d5960f441209b05f95c7fa5f5dc151f3f3 assets/weapon_forging/models/block/end_stone_sapphire_ore.json
 38be6df83be72a0ec50643df5b419e4d04e4d12a assets/weapon_forging/models/block/nether_sapphire_ore.json
@@ -51,6 +52,7 @@ b8cc7167b5515531231c7ffa5c57f362ca47b0f1 assets/weapon_forging/models/block/sapp
 7b67b7c33cba9ec2334e8c4a7b87464669ad1f8e assets/weapon_forging/models/block/sapphire_wall_side.json
 905e50e1dc4bdab4a98762f13535de59652bd187 assets/weapon_forging/models/block/sapphire_wall_side_tall.json
 ea49b613c62e66d981f835e9177575f18aeeb8d5 assets/weapon_forging/models/block/sound_block.json
+cf0e91c3065e6c1a821d737013dbef38e63ccffd assets/weapon_forging/models/block/weapon_forge.json
 6f8b0790928085a3a03a67398b57dc642779c3a4 assets/weapon_forging/models/item/deepslate_sapphire_ore.json
 30db386617b4cf375c574fb15194206bef7f2838 assets/weapon_forging/models/item/end_stone_sapphire_ore.json
 ac7b891b34f4c6f7079b1d43b7605e8685f671a7 assets/weapon_forging/models/item/nether_sapphire_ore.json
@@ -58,3 +60,4 @@ bb568d489bd2cfa4e8d247ab7038c93d7fcb540f assets/weapon_forging/models/item/raw_s
 4a5a4cff712c58b205701aa74a3508d31eccacf8 assets/weapon_forging/models/item/sapphire_block.json
 a8ef4a5f51942ddf456a5ab066ee1c96f7643622 assets/weapon_forging/models/item/sapphire_ore.json
 bec99c88659adb071500014b5ca8944eb297a8eb assets/weapon_forging/models/item/sound_block.json
+1c9178f3b4b5e21c44e999244e5c6764a288c41f assets/weapon_forging/models/item/weapon_forge.json

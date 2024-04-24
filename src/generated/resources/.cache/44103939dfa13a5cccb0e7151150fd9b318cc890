@@ -1,14 +1,14 @@
-// 1.20.2	2024-04-24T12:11:11.88241	Tags for minecraft:block mod id weapon_forging
+// 1.20.2	2024-04-24T14:45:20.705817	Tags for minecraft:block mod id weapon_forging
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_gold_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
 99b12d0fd35346ceaf84be05461dc6c79972c929 data/minecraft/tags/blocks/fences.json
 74c3a14e51a95f0667810fa1fc5367155113053b data/minecraft/tags/blocks/fence_gates.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/axe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/hoe.json
-a017005e1f93cc92a15d9ab3562c6b6f86ad8929 data/minecraft/tags/blocks/mineable/pickaxe.json
+47c6cbe974ebeeb3c5931da4856177b43391fe09 data/minecraft/tags/blocks/mineable/pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/shovel.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
-2f4126fd62349933004f2113063096ab3e8cccc0 data/minecraft/tags/blocks/needs_iron_tool.json
+9c991d1f0dd36dc34fe54abc84b459421b168e50 data/minecraft/tags/blocks/needs_iron_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
 c7d871c3f2954d58a09841145cfd0579ba45b41f data/minecraft/tags/blocks/walls.json
 fb563f1213185eb814b2f4f3091b7bb61e83ea24 data/weapon_forging/tags/blocks/metal_detector_valuables.json
