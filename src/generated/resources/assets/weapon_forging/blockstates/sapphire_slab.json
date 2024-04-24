@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "weapon_forging:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "weapon_forging:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "weapon_forging:block/sapphire_slab_top"
+    }
+  }
+}

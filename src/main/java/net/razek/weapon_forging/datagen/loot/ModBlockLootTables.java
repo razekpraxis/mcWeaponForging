@@ -38,6 +38,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(WeaponBlocks.SAPPHIRE_BLOCK.get());
         this.dropSelf(WeaponBlocks.RAW_SAPPHIRE_BLOCK.get());
         this.dropSelf(WeaponBlocks.SOUND_BLOCK.get());
+        this.dropSelf(WeaponBlocks.SAPPHIRE_FENCE.get());
+        this.dropSelf(WeaponBlocks.SAPPHIRE_FENCE_GATE.get());
+        this.dropSelf(WeaponBlocks.SAPPHIRE_WALL.get());
+        this.dropSelf(WeaponBlocks.SAPPHIRE_BUTTON.get());
+        this.dropSelf(WeaponBlocks.SAPPHIRE_TRAPDOOR.get());
+        this.dropSelf(WeaponBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+        this.dropSelf(WeaponBlocks.SAPPHIRE_STAIRS.get());
 
         // blocks that drop things other than themselves
         this.add(WeaponBlocks.SAPPHIRE_ORE.get(),
@@ -51,6 +58,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(WeaponBlocks.END_STONE_SAPPHIRE_ORE.get(),
                 block -> createCopperLikeOreDrops(WeaponBlocks.END_STONE_SAPPHIRE_ORE.get(), WeaponItems.RAW_SAPPHIRE.get()));
+
+        this.add(WeaponBlocks.SAPPHIRE_SLAB.get(),
+                block -> createSlabItemTable(WeaponBlocks.SAPPHIRE_SLAB.get()));
+
+        this.add(WeaponBlocks.SAPPHIRE_DOOR.get(),
+                block -> createDoorTable(WeaponBlocks.SAPPHIRE_DOOR.get()));
     }
 
 

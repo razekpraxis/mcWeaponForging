@@ -18,5 +18,14 @@
 
   "tooltip.weapon_forging.metal_detector.tooltip": "Finds valuables underground.",
 
+  "block.weapon_forging.sapphire_stairs": "Sapphire Stairs",
+  "block.weapon_forging.sapphire_slab": "Sapphire Slab",
+  "block.weapon_forging.sapphire_button": "Sapphire Button",
+  "block.weapon_forging.sapphire_pressure_plate": "Sapphire Plate",
+  "block.weapon_forging.sapphire_fence": "Sapphire Fence",
+  "block.weapon_forging.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.weapon_forging.sapphire_wall": "Sapphire Wall",
+  "block.weapon_forging.sapphire_door": "Sapphire Door",
+  "block.weapon_forging.sapphire_trapdoor": "Sapphire Trapdoor",
   "creativetab.weapon_tab": "Weapon Forging"
 }

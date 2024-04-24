@@ -53,5 +53,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL); //List of blocks that require a Shovel to mine
 
 
+        this.tag(BlockTags.FENCES)
+                .add(WeaponBlocks.SAPPHIRE_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(WeaponBlocks.SAPPHIRE_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS)
+                .add(WeaponBlocks.SAPPHIRE_WALL.get());
+
     }
 }
