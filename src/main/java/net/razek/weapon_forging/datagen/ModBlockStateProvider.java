@@ -18,26 +18,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(WeaponBlocks.SAPPHIRE_BLOCK);
-        blockWithItem(WeaponBlocks.RAW_SAPPHIRE_BLOCK);
-
-        blockWithItem(WeaponBlocks.SAPPHIRE_ORE);
-        blockWithItem(WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE);
-        blockWithItem(WeaponBlocks.END_STONE_SAPPHIRE_ORE);
-        blockWithItem(WeaponBlocks.NETHER_SAPPHIRE_ORE);
-        blockWithItem(WeaponBlocks.SOUND_BLOCK);
 
         cubeBottomUp(WeaponBlocks.WEAPON_FORGE, "weapon_forge", modLoc("block/weapon_forge_side"), modLoc("block/weapon_forge_bottom"), modLoc("block/weapon_forge_top"));
-
-        stairsBlock(((StairBlock) WeaponBlocks.SAPPHIRE_STAIRS.get()), blockTexture(WeaponBlocks.SAPPHIRE_BLOCK.get())); //stairs
-        slabBlock(((SlabBlock) WeaponBlocks.SAPPHIRE_SLAB.get()), blockTexture(WeaponBlocks.SAPPHIRE_BLOCK.get()), blockTexture(WeaponBlocks.SAPPHIRE_BLOCK.get())); //slabs
-        buttonBlock(((ButtonBlock) WeaponBlocks.SAPPHIRE_BUTTON.get()), blockTexture(WeaponBlocks.SAPPHIRE_BLOCK.get())); //button
-        pressurePlateBlock(((PressurePlateBlock) WeaponBlocks.SAPPHIRE_PRESSURE_PLATE.get()), blockTexture(WeaponBlocks.SAPPHIRE_BLOCK.get())); //pressure plate
-        fenceBlock(((FenceBlock) WeaponBlocks.SAPPHIRE_FENCE.get()), blockTexture(WeaponBlocks.SAPPHIRE_BLOCK.get())); //fence
-        fenceGateBlock(((FenceGateBlock) WeaponBlocks.SAPPHIRE_FENCE_GATE.get()), blockTexture(WeaponBlocks.SAPPHIRE_BLOCK.get())); //fence gate
-        wallBlock(((WallBlock) WeaponBlocks.SAPPHIRE_WALL.get()), blockTexture(WeaponBlocks.SAPPHIRE_BLOCK.get())); //wall
-        doorBlockWithRenderType(((DoorBlock) WeaponBlocks.SAPPHIRE_DOOR.get()), modLoc("block/sapphire_door_bottom"), modLoc("block/sapphire_door_top"), "cutout"); //door
-        trapdoorBlockWithRenderType(((TrapDoorBlock) WeaponBlocks.SAPPHIRE_TRAPDOOR.get()), modLoc("block/sapphire_door_bottom"), true, "cutout"); //trapdoor
 
     }
 

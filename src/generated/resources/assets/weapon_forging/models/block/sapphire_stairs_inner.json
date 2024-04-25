@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "weapon_forging:block/sapphire_block",
-    "side": "weapon_forging:block/sapphire_block",
-    "top": "weapon_forging:block/sapphire_block"
-  }
-}

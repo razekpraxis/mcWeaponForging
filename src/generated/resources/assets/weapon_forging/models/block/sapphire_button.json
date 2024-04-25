@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button",
-  "textures": {
-    "texture": "weapon_forging:block/sapphire_block"
-  }
-}
