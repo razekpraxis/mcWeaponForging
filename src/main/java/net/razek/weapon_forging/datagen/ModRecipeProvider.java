@@ -2,6 +2,8 @@ package net.razek.weapon_forging.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -38,6 +40,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', WeaponItems.SAPPHIRE.get())
                 .unlockedBy(getHasName(WeaponItems.SAPPHIRE.get()), has(WeaponItems.SAPPHIRE.get()))
                 .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, WeaponBlocks.WEAPON_FORGE.get())
+                        .pattern("ADA")
+                        .pattern("DAD")
+                        .pattern("ADA")
+                        .define('D', Items.DIAMOND)
+                        .define('A', Items.DIRT)
+                        .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
+                        .save(recipeOutput);
 
         // Shapeless recipes
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WeaponItems.SAPPHIRE.get(), 9)

@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.razek.weapon_forging.WeaponForging;
+import net.razek.weapon_forging.block.custom.ForgeBlock;
 import net.razek.weapon_forging.block.custom.SoundBlock;
 import net.razek.weapon_forging.item.WeaponItems;
 
@@ -78,7 +79,7 @@ public class WeaponBlocks {
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
 
     public static final RegistryObject<Block> WEAPON_FORGE = registerBlock("weapon_forge",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICK_SLAB)));
+            () -> new ForgeBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICK_SLAB)));
 
 
 
