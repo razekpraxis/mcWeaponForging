@@ -1,0 +1,33 @@
+{
+
+  "item.weapon_forging.sapphire": "Sapphire",
+  "item.weapon_forging.raw_sapphire": "Raw Sapphire",
+  "item.weapon_forging.strawberry": "Strawberry",
+  "item.weapon_forging.pine_cone": "Pine Cone",
+
+  "item.weapon_forging.metal_detector": "Metal Detector",
+
+  "block.weapon_forging.sapphire_block": "Block of Sapphire",
+  "block.weapon_forging.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.weapon_forging.sound_block": "Block of Pure Sound",
+
+  "block.weapon_forging.weapon_forge": "Weapon Forge",
+
+  "block.weapon_forging.sapphire_ore": "Sapphire Ore",
+  "block.weapon_forging.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.weapon_forging.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+  "block.weapon_forging.nether_sapphire_ore": "Nether Sapphire Ore",
+
+  "tooltip.weapon_forging.metal_detector.tooltip": "Finds valuables underground.",
+
+  "block.weapon_forging.sapphire_stairs": "Sapphire Stairs",
+  "block.weapon_forging.sapphire_slab": "Sapphire Slab",
+  "block.weapon_forging.sapphire_button": "Sapphire Button",
+  "block.weapon_forging.sapphire_pressure_plate": "Sapphire Plate",
+  "block.weapon_forging.sapphire_fence": "Sapphire Fence",
+  "block.weapon_forging.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.weapon_forging.sapphire_wall": "Sapphire Wall",
+  "block.weapon_forging.sapphire_door": "Sapphire Door",
+  "block.weapon_forging.sapphire_trapdoor": "Sapphire Trapdoor",
+  "creativetab.weapon_tab": "Weapon Forging"
+}

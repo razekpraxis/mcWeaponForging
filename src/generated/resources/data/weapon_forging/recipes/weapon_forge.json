@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:dirt"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "DAD",
+    "ADA"
+  ],
+  "result": {
+    "item": "weapon_forging:weapon_forge"
+  },
+  "show_notification": true
+}
