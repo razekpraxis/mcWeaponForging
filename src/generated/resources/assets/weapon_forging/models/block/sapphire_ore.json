@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "weapon_forging:block/sapphire_ore"
-  }
-}

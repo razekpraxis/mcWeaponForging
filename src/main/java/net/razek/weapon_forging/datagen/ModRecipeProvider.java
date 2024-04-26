@@ -17,11 +17,6 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    private static final List<ItemLike> SAPPHIRE_SMELTABLES = List.of(WeaponItems.RAW_SAPPHIRE.get(),
-            WeaponBlocks.SAPPHIRE_ORE.get(),
-            WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
-            WeaponBlocks.NETHER_SAPPHIRE_ORE.get(),
-            WeaponBlocks.END_STONE_SAPPHIRE_ORE.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -29,17 +24,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
-        oreSmelting(recipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, (ItemLike) WeaponItems.SAPPHIRE.get(), 0.25F, 200, "sapphire");
-        oreBlasting(recipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, (ItemLike) WeaponItems.SAPPHIRE.get(), 0.25F, 100, "sapphire");
-
-        // shaped recipe for sapphire block
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, WeaponBlocks.SAPPHIRE_BLOCK.get())
-                .pattern("SSS")
-                .pattern("SSS")
-                .pattern("SSS")
-                .define('S', WeaponItems.SAPPHIRE.get())
-                .unlockedBy(getHasName(WeaponItems.SAPPHIRE.get()), has(WeaponItems.SAPPHIRE.get()))
-                .save(recipeOutput);
+        // shaped recipes
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, WeaponBlocks.WEAPON_FORGE.get())
                         .pattern("ADA")
@@ -51,10 +36,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .save(recipeOutput);
 
         // Shapeless recipes
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WeaponItems.SAPPHIRE.get(), 9)
-                .requires(WeaponBlocks.SAPPHIRE_BLOCK.get())
-                .unlockedBy(getHasName(WeaponBlocks.SAPPHIRE_BLOCK.get()), has(WeaponBlocks.SAPPHIRE_BLOCK.get()))
-                .save(recipeOutput);
     }
 
 

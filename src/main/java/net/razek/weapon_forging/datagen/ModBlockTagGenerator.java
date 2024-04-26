@@ -20,18 +20,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .add(WeaponBlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES);
 
         this.tag(BlockTags.NEEDS_STONE_TOOL); //List of blocks that need stone or higher tools to mine
 
         this.tag(BlockTags.NEEDS_IRON_TOOL) //List of blocks that need Iron or higher tools to mine
-                .add(WeaponBlocks.SAPPHIRE_BLOCK.get(),
-                    WeaponBlocks.SAPPHIRE_ORE.get(),
-                    WeaponBlocks.WEAPON_FORGE.get(),
-                    WeaponBlocks.NETHER_SAPPHIRE_ORE.get(),
-                    WeaponBlocks.END_STONE_SAPPHIRE_ORE.get(),
-                    WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                .add(WeaponBlocks.WEAPON_FORGE.get());
+
 
         this.tag(Tags.Blocks.NEEDS_GOLD_TOOL); //List of blocks that need Gold or higher tools to mine
 
@@ -40,13 +34,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL); //List of blocks that need Netherite or higher tools to mine
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE) //List of blocks that require a Pickaxe to mine
-                .add(WeaponBlocks.SAPPHIRE_BLOCK.get(),
-                        WeaponBlocks.SAPPHIRE_ORE.get(),
-                        WeaponBlocks.NETHER_SAPPHIRE_ORE.get(),
-                        WeaponBlocks.SOUND_BLOCK.get(),
-                        WeaponBlocks.END_STONE_SAPPHIRE_ORE.get(),
-                        WeaponBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
-                        WeaponBlocks.WEAPON_FORGE.get());
+                .add(WeaponBlocks.WEAPON_FORGE.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE); //List of blocks that require an Axe to mine
 
@@ -55,12 +43,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL); //List of blocks that require a Shovel to mine
 
 
-        this.tag(BlockTags.FENCES)
-                .add(WeaponBlocks.SAPPHIRE_FENCE.get());
-        this.tag(BlockTags.FENCE_GATES)
-                .add(WeaponBlocks.SAPPHIRE_FENCE_GATE.get());
-        this.tag(BlockTags.WALLS)
-                .add(WeaponBlocks.SAPPHIRE_WALL.get());
+        this.tag(BlockTags.FENCES);
+
+        this.tag(BlockTags.FENCE_GATES);
+
+        this.tag(BlockTags.WALLS);
+
 
     }
 }

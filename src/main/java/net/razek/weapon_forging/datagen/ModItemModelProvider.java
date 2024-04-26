@@ -20,25 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(WeaponItems.SAPPHIRE);
-        simpleItem(WeaponItems.RAW_SAPPHIRE);
 
-        simpleItem(WeaponItems.METAL_DETECTOR);
-        simpleItem(WeaponItems.PINE_CONE);
-        simpleItem(WeaponItems.STRAWBERRY);
-
-        simpleBlockItem(WeaponBlocks.SAPPHIRE_DOOR);
-
-        fenceItem(WeaponBlocks.SAPPHIRE_FENCE, WeaponBlocks.SAPPHIRE_BLOCK);
-        buttonItem(WeaponBlocks.SAPPHIRE_BUTTON, WeaponBlocks.SAPPHIRE_BLOCK);
-        wallItem(WeaponBlocks.SAPPHIRE_WALL, WeaponBlocks.SAPPHIRE_BLOCK);
-
-        evenSimplerBlockItem(WeaponBlocks.SAPPHIRE_STAIRS);
-        evenSimplerBlockItem(WeaponBlocks.SAPPHIRE_SLAB);
-        evenSimplerBlockItem(WeaponBlocks.SAPPHIRE_PRESSURE_PLATE);
-        evenSimplerBlockItem(WeaponBlocks.SAPPHIRE_FENCE_GATE);
-
-        trapdoorItem(WeaponBlocks.SAPPHIRE_TRAPDOOR);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
