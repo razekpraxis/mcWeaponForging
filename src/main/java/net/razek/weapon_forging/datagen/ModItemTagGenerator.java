@@ -3,9 +3,12 @@ package net.razek.weapon_forging.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.razek.weapon_forging.WeaponForging;
+import net.razek.weapon_forging.item.WeaponItems;
+import net.razek.weapon_forging.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -17,6 +20,9 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        this.tag(ModTags.Blocks.Items.FORGED_WEAPON)
+                .add(WeaponItems.GUN.get())
+                .add(WeaponItems.RIFLE.get());
 
     }
 }

@@ -18,6 +18,8 @@ public class ModTags {
     }
 
     public static class Items {
+            public static TagKey<Item> FORGED_WEAPON = tag("forged_weapon");
+
 
             private static TagKey<Item> tag(String name) {
                 return ItemTags.create(new ResourceLocation(WeaponForging.MOD_ID, name));

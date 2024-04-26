@@ -23,10 +23,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.weapon_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         // Items
-
-
+                        pOutput.accept(WeaponItems.GUN.get());
+                        pOutput.accept(WeaponItems.RIFLE.get());
                         // Blocks
-
 
                         pOutput.accept(WeaponBlocks.WEAPON_FORGE.get());
 

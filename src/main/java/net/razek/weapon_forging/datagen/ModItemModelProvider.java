@@ -20,7 +20,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-
+        simpleItem(WeaponItems.GUN);
+        simpleItem(WeaponItems.RIFLE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

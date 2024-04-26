@@ -19,8 +19,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
-        cubeBottomUp(WeaponBlocks.WEAPON_FORGE, "weapon_forge", modLoc("block/weapon_forge_side"), modLoc("block/weapon_forge_bottom"), modLoc("block/weapon_forge_top"));
-
+        simpleBlockWithItem(WeaponBlocks.WEAPON_FORGE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/weapon_forge")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

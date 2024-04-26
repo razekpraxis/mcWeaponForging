@@ -1,0 +1,15 @@
+{
+  "begin_craft": {
+    "subtitles": "sounds.weapon_forging.begin_craft",
+    "sounds": [
+      "weapon_forging:begin_craft"
+    ]
+  },
+
+  "complete_craft": {
+    "subtitles": "sounds.weapon_forging.complete_craft",
+    "sounds": [
+      "weapon_forging:complete_craft"
+    ]
+  }
+}
